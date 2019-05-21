@@ -13,6 +13,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class ActivitiConfig {
+    //hahahahhah
     //流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
     @Bean
     public ProcessEngineConfiguration processEngineConfiguration(DataSource dataSource, PlatformTransactionManager transactionManager){
@@ -20,7 +21,7 @@ public class ActivitiConfig {
         processEngineConfiguration.setDataSource(dataSource);
         processEngineConfiguration.setDatabaseSchemaUpdate("true");
         processEngineConfiguration.setDatabaseType("mysql");
-
+        //HHHHHHHH
         processEngineConfiguration.setTransactionManager(transactionManager);
 
         //流程图字体
