@@ -16,6 +16,7 @@ import javax.sql.DataSource;
 @Configuration
 public class ActivitiConfig {
     //hahahahhah
+    //hanimanenina
     //流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
     @Bean
     public ProcessEngineConfiguration processEngineConfiguration(DataSource dataSource, PlatformTransactionManager transactionManager){
